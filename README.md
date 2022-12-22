@@ -1,12 +1,14 @@
 # Laravel Command Generator
-To make it easier to make commands in laravel and can already be used with .stub files
+To make it easier to make commands in laravel and can already be used with .stub files.
+
+[Laravel artisan documentation](https://laravel.com/docs/9.x/artisan)
 
 ## How to use
-1. Paste file `CommandGenerator.php` to `App\Console\Commands`
-2. Replace `CommandGenerator` class to `YourClass`
-3. Rename the file accordingly
-4. if your command interact with file .stub create file stub in `App\Console\stubs`
-5. Edit property in file `CommandGenerator.php`
+1. Paste file `CommandGenerator.php` to `App\Console\Commands`.
+2. Replace `CommandGenerator` class to `YourClass`.
+3. Rename the file accordingly.
+4. if your command interact with file .stub create file stub in `App\Console\stubs`.
+5. Edit property in file `CommandGenerator.php`.
 
 ### Example code
 ```php
